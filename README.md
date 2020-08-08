@@ -1,6 +1,6 @@
-#Projeto E-commerce
+# Projeto E-commerce
 
-##Projeto desenvolvido do zero com base no curso [Curso de PHP 7]
+## Projeto desenvolvido do zero com base no curso [Curso de PHP 7]
 
 Referência: **(https://www.udemy.com/curso-completo-de-php-7/)**<br />
 
