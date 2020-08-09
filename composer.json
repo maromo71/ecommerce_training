@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\maromonet\\php-classes\\src"
+            "maromonet\\": "vendor\\maromonet\\php-classes\\src"
         }
     }
 }

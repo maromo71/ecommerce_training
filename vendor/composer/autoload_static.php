@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9889983bf7471931acff924db6f23c49
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/maromonet/php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        'm' => 
+        array (
+            'maromonet\\' => 10,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'maromonet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/maromonet/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -41,7 +51,8 @@ class ComposerStaticInit9889983bf7471931acff924db6f23c49
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit9889983bf7471931acff924db6f23c49::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9889983bf7471931acff924db6f23c49::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9889983bf7471931acff924db6f23c49::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit9889983bf7471931acff924db6f23c49::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit9889983bf7471931acff924db6f23c49::$classMap;
 

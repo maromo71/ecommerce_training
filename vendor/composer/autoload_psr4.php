@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '' => array($vendorDir . '/maromonet/php-classes/src'),
+    'maromonet\\' => array($vendorDir . '/maromonet/php-classes/src'),
 );
